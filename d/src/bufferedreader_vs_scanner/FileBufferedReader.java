@@ -9,6 +9,6 @@ package bufferedreader_vs_scanner;
  *
  * @author zacchello.riccardo
  */
-public class Array {
+public class FileBufferedReader {
     
 }
