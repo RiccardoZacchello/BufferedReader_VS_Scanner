@@ -17,12 +17,16 @@ public class FileScannerReader {
     Scanner input = new Scanner(System.in);
 
     public void ScannerReader() throws IOException {
+        
         File file = new File("FileEs.txt"); 
         Scanner sc = new Scanner(file);
-
+        int []array =new int [500000];
         while (sc.hasNextLine()) {
             int i = sc.nextInt();
-            System.out.println(i);
+            for (int j = 0; j < array.length; j++) {
+                array[j]=i;
+                
+            }
         }
         sc.close();
     }
